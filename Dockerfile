@@ -1,4 +1,4 @@
-FROM maven:3 AS build
+FROM maven:3-openjdk-8 AS build
 WORKDIR /code
 COPY ./ /code
 RUN mvn package -Dmaven.test.skip=true
