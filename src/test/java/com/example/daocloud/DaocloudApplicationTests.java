@@ -19,8 +19,8 @@ class DaocloudApplicationTests {
 
 	@Test
 	void add1() {
-		int res = myService.add(766,11);
-		assert res == 777;
+		int res = myService.add(766,10);
+		assert res == 776;
 	}
 
 }
